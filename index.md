@@ -4,6 +4,7 @@
   }
 </style>
 ## Article Transformer
+
 <p>Welcome to the article transform webapp. To use:</p>
 <ol>
   <li>Copy all the article text from a word document .html export</li>
@@ -11,18 +12,20 @@
   <li>Click in the output box, and using ctrl-a or cmd-a select all the text to copy.</li>
   <li>Paste the copied text into the website admin panel and publish</li>
 </ol>
+
 <form>
 <label for="article-text-box">Article text:</label>
-<input type="text" id="article-text-box" name="article-text-box" required size="100">
-<input type="text" id="output" name="output" size="100">
-<input type="button" value="transform" id="transform-button'>
-</form> 
+  <input type="text" id="article-text-box" name="article-text-box" required size="100">
+  <input type="text" id="output" name="output" size="100">
+  <input type="button" value="transform" id="transform-button">
+</form>
+
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <script type='text/javascript'>
 $('#transform').on('Click', function(){
-    $('#output').text($('#article-text-box'));
+    $('#output').text($('#article-text-box').val());
 });
-</script>                                           
+</script>                             
   
   
 <!-- 
