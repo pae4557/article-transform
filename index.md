@@ -1,13 +1,25 @@
-## Welcome to GitHub Pages
 <style>
   .a-class{
     margin-left: 0px;
   }
 </style>
+## Article Transformer
+<p>Welcome to the article transform webapp. To use:</p>
+<ol>
+  <li>Copy all the article text from a word document .html export</li>
+  <li>Paste all the text into the input box and click "submit"</li>
+  <li>Click in the output box, and using ctrl-a or cmd-a select all the text to copy.</li>
+  <li>Paste the copied text into the website admin panel and publish</li>
+</ol>
 <form>
-<input type="text" id="article-text-box" name="name" required
-       minlength="4" maxlength="8" size="10">
+<label for="article-text-box">Article text:</label>
+<input type="text" id="article-text-box" name="article-text-box" required size="100">
+<input type="text" id="output" name="output" size="100">
+<button type="submit">
 </form> 
+  
+  
+  
 <!-- 
 You can use the [editor on GitHub](https://github.com/pae4557/article-transform/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
