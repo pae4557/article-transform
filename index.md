@@ -3,9 +3,11 @@
   .a-class{
     margin-left: 0px;
   }
- </style>
- <input type="text" id="article-text-box">
- 
+</style>
+<form>
+<input type="text" id="article-text-box" name="name" required
+       minlength="4" maxlength="8" size="10">
+</form> 
 <!-- 
 You can use the [editor on GitHub](https://github.com/pae4557/article-transform/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
